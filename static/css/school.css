@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
 body {
     background-color: white;
 }
@@ -70,7 +73,7 @@ a:visited {
     padding-top:50px;
     letter-spacing: 5px;
 }
-hr {
+.line1 {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -81,7 +84,11 @@ hr {
     height: 50px;
 
 }
-.column {
+.column2 {
+    float: left;
+    width: 50%;
+  }
+  .column1 {
     float: left;
     width: 33.33%;
   }
@@ -108,5 +115,48 @@ hr {
   .subtitle2{
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
-    color: #1A281F
+    color: #1A281F;
+  }
+  .social{
+    margin-bottom: 50px;
+
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #2A2D34;
+    color: #EFF1F3;
+  }
+  
+  .fa-twitter {
+    background: #2A2D34;
+    color: #EFF1F3;
+  }
+
+  .fa-instagram {
+    background: #2A2D34;
+    color: #EFF1F3;
+  }
+
+  .fa-linkedin {
+    background: #2A2D34;
+    color: #EFF1F3;
+  }
+  .last{
+    margin: 150px;
+	border-radius:1px;
   }
