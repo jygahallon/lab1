@@ -109,10 +109,11 @@ a:visited {
       
     width: 300px;
     height: 169px;
-    filter: grayscale();
+   
+    filter: none;
   }
   .gimages:hover{
-      filter: none;
+    filter: grayscale();
   }
   .subtitle1{
     font-family: 'IBM Plex Sans Condensed', sans-serif;
@@ -166,4 +167,10 @@ a:visited {
   .fa-linkedin {
     background: #EFF1F3;
     color: #2A2D34;
+  }
+
+  .icon{
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
   }
