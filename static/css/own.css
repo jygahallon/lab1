@@ -42,15 +42,15 @@ body {
 .button1{
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     color:#EFF1F3;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 5px;
     border:2px solid white;
-    width:150px;
+    width:120px;
     background-color: #2A2D34;
-    height:60px;
+    height:50px;
     text-align: center;
-    margin:50px;
+    margin:30px;
 }
 
 .button1:hover{
