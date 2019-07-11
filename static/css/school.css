@@ -98,7 +98,6 @@ a:visited {
    margin-top:15px;
 }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
@@ -113,7 +112,7 @@ a:visited {
     filter: none;
   }
   .gimages:hover{
-    filter: grayscale();
+    filter: grayscale(100%);
   }
   .subtitle1{
     font-family: 'IBM Plex Sans Condensed', sans-serif;
