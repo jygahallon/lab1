@@ -3,93 +3,102 @@
 <head>
     <title>entity</title>
     <link rel="stylesheet" type="text/css" href="css/entry.css">
+    <link rel="stylesheet" type="text/css" href="css/blog.css">
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" href="images/me.png">
 
-	<script src="jquery-3.4.1.js"></script>
-    <script src="js/own.js"></script>
+    <script src="jquery-3.4.1.js"></script>
+    <!-- <script src="js/own.js"></script> -->
     <script src='jquery.zoom.js'></script>
+    <script src='js/blog.js'></script>
 
 </head>
 
 <body>
 
-        <div class="middle" align="center">
-            <div class="entity">
-                <a href="index.html">entity</a>
-            </div>
-
-
-            <div class="tabs">
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li >
-                        <a href="school.html">School</a>
-                    </li>
-                    <li>
-                        <a href="personal.html">Personal</a>
-
-                    </li>
-                    <li class="chosen">
-                        <a href="blog.html">Blog</a>
-                    </li>
-
-                </ul>
-            </div>
-            <div class="since" align="left">
-                since july twenty five nineteen ninety eight
-
-            </div>
-        </div>
-        <!--Header-->
-        <div class="entrybody">
-
-            <div class="title3">College Blog</div>
-            <div class="date">July 10, 2019</div>
-            <!--Body-->
-            <div class="content">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum."
-            </div>
-            <div class="content">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum."
-            </div>
-            <div class="content">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum."
-            </div>
-            <!--End of Body-->
-
+    <div class="middle" align="center">
+        <div class="entity">
+            <a href="index.html">entity</a>
         </div>
 
-        <hr class="last">
-        <div align="center">
-            <img src="images/me.jpg" alt="me" class="icon">
-            <div class="subtitle1">
-                <p>Oh, hello there!</p>
-                <p>My name is Jamie, and I currently study at Asia Pacific College. This is my first labwork. Yay!</p>
+
+        <div class="tabs">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="school.html">School</a>
+                </li>
+                <li>
+                    <a href="personal.html">Personal</a>
+
+                </li>
+                <li class="chosen">
+                    <a href="blog.html">Blog</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="since" align="left">
+            since july twenty five nineteen ninety eight
+
+        </div>
+    </div>
+    <!--Header-->
+    <div class="entrybody">
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/anime.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
             </div>
 
-        </div>
-        <div class="social" align="center">
-            <a href="https://www.facebook.com/jamiegahallon" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://twitter.com/jamietyg" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://instagram.com/jtygahallon" class="fa fa-instagram" target="_blank"></a>
-            <a href="https://ph.linkedin.com/in/jamie-gahallon-b71445160" class="fa fa-linkedin" target="_blank"></a>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/band.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
 
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/idol.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+    </div>
+
+    <hr class="last">
+    <div align="center">
+        <img src="images/me.jpg" alt="me" class="icon">
+        <div class="subtitle1">
+            <p>Oh, hello there!</p>
+            <p>My name is Jamie, and I currently study at Asia Pacific College. This is my first labwork. Yay!</p>
+        </div>
+
+    </div>
+    <div class="social" align="center">
+        <a href="https://www.facebook.com/jamiegahallon" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://twitter.com/jamietyg" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://instagram.com/jtygahallon" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://ph.linkedin.com/in/jamie-gahallon-b71445160" class="fa fa-linkedin" target="_blank"></a>
+
+    </div>
 
 </body>
 
