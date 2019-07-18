@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.menu{
+    background-color:#F2BAC9;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.leftmenu {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: #F2E2BA;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1% 2%;
+    text-decoration: none;
+    font-size: 14px;
+}
+.rightmenu{
+    color: #F2E2BA;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1% 2%;
+    text-decoration: none;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color:inherit
+}
+a:visited { 
+    text-decoration: none; 
+    color:inherit
+}
